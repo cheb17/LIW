@@ -1,0 +1,63 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+  color: #000;
+}
+h1{
+	margin: auto;
+	text-align: center;
+}
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #0075f6;
+  background-color: #0075f6;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover {background-color: #0075f6}
+
+button:active {
+  background-color: #0075f6;
+  box-shadow: 0 5px #0075f6;
+  transform: translateY(4px);
+}
+footer{
+	margin-top: 50px;
+    padding: 3%;
+	text-align: center;
+}
+i{
+	margin-top: 45px;
+}
+
+
+/*CLASSES*/
+.header{
+	background-image: url("images/starry.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px;
+	max-width: 100%; 
+	height: auto;
+}
+.display-4{
+  margin-top: 80px;
+  padding: 10px;
+	color: #000;
+}
+.try{
+  color: #fff;
+}
+
+
+
+/*ID*/
+#content{
+  color: #000;
+	height: 250px;
+  text-align: center;
+}
